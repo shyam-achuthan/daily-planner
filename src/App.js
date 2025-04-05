@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import html2canvas from "html2canvas";
 import React, { useState, useEffect, useRef } from "react";
 import { Sun, Download, Trash2 } from "lucide-react";
+import InstallPWA from "./InstallPWA";
 
 const DailyPlanner = () => {
   // Create a ref for the planner element (for PDF export)
@@ -283,6 +284,7 @@ const DailyPlanner = () => {
           >
             <Trash2 size={18} style={{ marginRight: "0.25rem" }} /> Clear All
           </button>
+          <InstallPWA />
         </div>
         <div style={{ display: "flex", justifyContent: "flex-end" }}>
           <div style={{ display: "flex", alignItems: "center" }}>

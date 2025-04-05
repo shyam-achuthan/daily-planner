@@ -38,7 +38,19 @@
     <meta name="twitter:title" content="Daily Planner | Personal Productivity Tool">
     <meta name="twitter:description" content="Organize your day effectively with our customizable Daily Planner. Free online tool with PDF export.">
     <meta name="twitter:image" content="https://myday.tunerlabs.coms/preview.png">
-    
+    <script type="application/javascript">
+      if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(registration => {
+        console.log('ServiceWorker registration successful');
+      })
+      .catch(error => {
+        console.log('ServiceWorker registration failed:', error);
+      });
+  });
+}
+    </script>
     <!-- Schema.org markup for Google -->
     <script type="application/ld+json">
     {
