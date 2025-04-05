@@ -663,7 +663,7 @@ const DailyPlanner = () => {
                   color: primaryColor,
                 }}
               >
-                APPOINTMENT
+                APPOINTMENTS/MEETINGS/CALLS
               </h2>
 
               {appointments.map((appointment, index) => (
