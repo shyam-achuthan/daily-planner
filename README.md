@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# MyDay Planner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![MyDay Planner Screenshot](screenshot.png)
 
-## Available Scripts
+MyDay Planner is a simple yet powerful daily planning tool that helps you organize your day effectively. What makes it special is its focus on privacy - all your data stays on your device, stored in your browser's local storage.
 
-In the project directory, you can run:
+## 🌟 Features
 
-### `npm start`
+- **📅 Daily Schedule** - Plan your day hour by hour
+- **✅ Top Priorities** - Focus on what truly matters
+- **🎯 Daily Goal** - Set one clear objective for your day
+- **📝 Appointments** - Keep track of important meetings
+- **📋 Notes** - Capture additional thoughts and ideas
+- **🎨 Customizable Theme** - Choose your preferred color scheme
+- **📱 Mobile Friendly** - Works great on all devices
+- **📎 PWA Support** - Install on your home screen
+- **🔒 100% Private** - All data stays on your device
+- **🖨️ PDF Export** - Create physical copies whenever needed
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can start using MyDay Planner immediately by visiting:
 
-### `npm test`
+[https://myday.tunerlabs.com/](https://myday.tunerlabs.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+No account creation or signup required!
 
-### `npm run build`
+### Installation as a PWA
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+On supported browsers, you can install MyDay Planner as a Progressive Web App:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Visit [https://myday.tunerlabs.com/](https://myday.tunerlabs.com/)
+2. Click the "Add to Home Screen" button in the app
+3. Follow your browser's installation prompts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💡 The Philosophy Behind MyDay Planner
 
-### `npm run eject`
+MyDay Planner is based on a personal productivity system used and refined over 7 years. It focuses on:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Simplicity** - Only the essential planning elements
+- **Focus** - Helping you identify and work on your most important tasks
+- **Balance** - Planning your time while maintaining flexibility
+- **Privacy** - Keeping your personal planning information private
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔧 Technical Details
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Built with React
+- Uses local storage for data persistence
+- No backend required
+- Fully responsive design with Tailwind CSS
+- Progressive Web App capabilities
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Development
 
-## Learn More
+### Prerequisites
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Node.js (v14 or higher)
+- npm or yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Local Setup
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
